@@ -103,6 +103,7 @@ def load_model():
 # Header utama
 st.markdown('<h1 class="main-header">🍅 AI Tomato Detector</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">Deteksi objek Tomat menggunakan teknologi YOLOv8 </p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Muhamad Syahrul Katamso 22416255201064 - Risky Mawa Santoso 22416255201141 </p>', unsafe_allow_html=True)
 
 # Sidebar dengan informasi
 with st.sidebar:
@@ -299,8 +300,6 @@ with st.expander("💡 Tips for Better Detection"):
 
 with st.expander("📈 Model Performance"):
     st.markdown("""
-    - **Accuracy**: 95%+ on test dataset
-    - **Speed**: ~0.1 seconds per image
     - **Supported Formats**: JPG, JPEG, PNG
     - **Max Image Size**: 10MB
     """)
