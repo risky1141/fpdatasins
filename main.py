@@ -94,7 +94,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        model = YOLO("runs/detect/train/weights/best.pt")
+        model = YOLO("best.pt")
         return model
     except Exception as e:
         st.error(f"❌ Error loading model: {e}")
